@@ -5,7 +5,16 @@ html {
 }
 body, h1, h2, h3, ul, li, a, p {
     margin: 0;
-    padding: 0;
+    padding: 0
+        
+ .colorText{
+  color: #39424E;
+}
+
+p{
+  color: #39424E;
+}
+    
 }
 h2, h3 {
     font-size: 1em;
