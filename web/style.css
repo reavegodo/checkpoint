@@ -25,3 +25,180 @@ footer {
 }
 
 /* Your code here */
+
+body section {
+    margin: 4px;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+header ul {
+    margin: 0.8em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header li {
+    margin: 0 2px;
+}
+
+header li:last-child {
+    margin: 0 33%;
+}
+
+li a {
+    color: black;
+}
+
+.motto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.applyButton {
+    background-color: #F76C6C;
+    color: whitesmoke;
+    padding: 0.5em 1em;
+    margin: 1em;
+    border-radius: 30px;
+}
+
+.mainContent article {
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+article h3 {
+    margin: 0.5em 4px 0em 4px;
+}
+
+article p {
+    padding: 10px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #39424E;
+    color: whitesmoke;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #F76C6C;
+}
+
+footer ul li:first-child {
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+.copyRight {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    header section {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    header nav {
+        margin-left: 5%;
+    }
+
+    header ul {
+        margin: 0.8em 0;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+
+    header li {
+        margin: 0 10px;
+    }
+
+    header li:last-child {
+        margin: 0 4px 0 10px;
+    }
+
+    .motto {
+        margin-top: 2em;
+        margin-bottom: 1.8em;
+    }
+
+    .mainContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .mainContent article {
+        align-items: center;
+        width: 250px;
+    }
+
+    article h3 {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer section:first-child {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 3%;
+        align-self: stretch;
+    }
+
+    footer ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30%;
+        margin: 1.5em 0.8em 2em 0.8em;
+    }
+
+    footer ul:last-child {
+        justify-self: flex-end;
+    }
+
+}
