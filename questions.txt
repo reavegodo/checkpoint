@@ -56,4 +56,4 @@ C'est une valeur qui se refere a une autre valeur
 UpperCamelCase
 
 20. Quelle est la dernière version de Java ?
-Actuellement la 13 pour le grand public et la 17 pour les pro 	
+Actuellement la 13  	
